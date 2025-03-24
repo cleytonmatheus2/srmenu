@@ -1,0 +1,91 @@
+#modal-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgb(0, 0, 0, .6);
+    transition: all .8s ease-in-out;
+    animation: animAsideModalContent .2s ease-in-out;
+
+}
+
+@keyframes animAsideModalContent {
+    0% {
+        background-color: rgb(0, 0, 0, 0);   
+    }
+   100% {
+        background-color: rgb(0, 0, 0, .6);   
+    }
+}
+
+#modal-body.hide-modal {
+    background-color: rgb(0, 0, 0, 0);   
+}
+
+.modal-header {
+    min-height: 16.42857143px;
+    padding: 17px 25px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.modal-header-text {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.modal-content {
+    max-height: 55vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.modal-footer {
+    min-height: 16.42857143px;
+    padding: 17px 25px;
+    border-top: 1px solid #e5e5e5;
+}
+
+
+
+.domini-modal {
+    /*width: 450px;
+    height: 100vh;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: azure;
+    transition: all .2s ease-in-out;
+    animation: animAsideModal .4s ease-in-out*/
+    border-radius: 15px;
+    min-width: 800px;
+    min-height: 15vh;
+    max-height: 70vh;
+    position: absolute;
+    background-color: azure;
+    opacity: 1;
+    transition: all .2s ease-in-out;
+    animation: animAsideModal .4s ease-in-out;
+}
+
+@keyframes animAsideModal {
+    0% {
+       opacity: 0;
+       margin-top: -100px;
+    }
+   100% {
+        opacity: 1;
+        margin-top: 0px;
+    }
+}
+
+#modal-body.hide-modal .domini-modal {
+    margin-top: -100px;
+    opacity: 0;
+}
+
+
+
+
+
+
+

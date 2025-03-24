@@ -1,0 +1,286 @@
+
+.divImagemProd{
+    height:380px; 
+    width: 100%;
+  }
+  
+  .divInfosProd {
+    padding: 25px;
+  }
+  
+
+  
+  p.infosProdNome{
+      font-size: 19px;
+      font-weight: 600;
+      padding-bottom: 10px;
+  }
+  p.infosProdDesc{
+      font-size: 17px;
+      font-weight: 400;
+      padding-bottom: 10px;
+  }
+  p.infosProdPreco{
+    padding-top: 10px;
+      font-size: 19px;
+      font-weight: 400;
+  }
+  
+  .imagemProd{
+      width: 100%;
+      height:420px; 
+      object-fit: cover;
+      position: fixed;
+  }
+  
+  .hr{
+    background-color: #d5d9db;
+    border-color:  #d5d9db;
+    color: #d5d9db;
+    border: 0;
+    border-top: 1px #d5d9db solid;
+  }
+  
+  .divCabecalhoOpc{
+      border-bottom: 1px #e3e3e3 solid;
+      background:#ebebeb;
+      width: 100%;
+      position: relative; 
+  }
+
+
+
+
+  
+.divListagemItens {
+    display: flex;
+    background-color: #fff;
+    border-bottom: 1px #dee2e4 solid;
+    position: relative;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+  }
+  
+  div.clickDiv{
+    padding: 20px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+  }
+  
+   
+  .divBotoesItens{
+    position: absolute;
+    right: 25px;
+  }
+
+
+  .divInfosItem{
+    height: 42px;
+    padding-left: 22px;
+    justify-content: space-between;
+  }
+  
+
+  span.nomeItem{
+    font-size: 16px;
+  }
+  span.precoItem{
+    font-size: 15px;
+  }
+  
+  
+  span.obrigOK{
+    position: absolute;
+    top: 50%;
+    right: 6px;
+    transform: translate(-50%, -50%);
+    background-color: #32ba7c;
+    border-radius: 50px;
+    padding: 6px;
+    width: 30px;
+    height: 30px;
+  }
+  
+  span.obrigKO{
+      color: #fff; 
+      font-size: 15px; 
+      font-weight:400; 
+      border-radius: 7px; 
+      padding: 7px 12px;
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      right: 0;
+      transform: translate(-15%, -50%);
+  }
+  
+  
+  
+  
+  .btnMais, .btnMenos{
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+    font-size: 21px;
+  }
+  .btnMais:active, .btnMenos:active{
+      box-shadow: 0 0 0 12px #e3e3e3; 
+      border-radius: 50%;
+      background-color: #e3e3e3;
+  }
+  
+  
+  .quantItemAdicionada{
+      font-size: 15px;
+      padding: 0 20px;
+  }
+
+
+
+
+  
+.div_btn_adc {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: white;   
+    border-top: 1px solid #dbdbdb;
+    padding: 7px 7px 7px 7px;
+    vertical-align: middle;
+    overflow: hidden;  
+    
+}
+
+.final_adc_carrinho {
+    display: flex;
+    text-align: center;
+}
+
+
+
+
+
+
+
+.adc_qtd_btn{
+      background-color: #ebebeb;
+      border-radius: 7px;
+      padding: 13px 0;
+      width:35%;
+      color: #646464;
+      margin-right: 7px;
+      position: relative;
+      overflow: hidden;
+ 
+}
+
+
+.adc_qtd_btn .num_result{
+     text-align: center;
+     z-index: 300; 
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+    font-family:"Rubik", sans-serif; 
+}
+
+
+.adc_qtd_btn .minos_btn{
+    padding: 14px 20px 14px 20px;
+    margin-top: -15px; 
+    position: absolute;
+    left: 0;     
+}
+
+
+.adc_qtd_btn .plus_btn{
+   padding: 14px 20px 14px 20px;
+   margin-top: -15px; 
+   position: absolute;
+   right: 0; 
+     
+}
+
+.num_result {
+    display: inline-block;  
+    text-align: center;
+    padding: 12px 20px 12px 20px;
+    margin: -12px -20px -12px -20px;
+    z-index: 300;
+}
+
+.num_result .qtdprodTexto{
+    text-align: center; 
+    z-index: 300;
+
+}
+
+
+
+
+
+
+.minusicon{
+animation: quantAnimation 0.3s ease-out;
+}
+.plusicon{
+animation: quantAnimation 0.3s ease-out;
+}
+
+@keyframes quantAnimation{
+    0%{
+        box-shadow: 1px 0 0 0px rgb(250, 250, 250, 0); 
+        background-color: rgb(250, 250, 250, 0);
+        border-radius: 50%;
+    }
+    50%{
+        box-shadow: 1px 0 0 30px rgb(250, 250, 250, 1); 
+        background-color: rgb(250, 250, 250, .8);
+        border-radius: 50%; 
+    }
+    100%{
+        box-shadow: 1px 0 0 40px rgb(250, 250, 250, 0); 
+        background-color: rgb(250, 250, 250, .0);
+        border-radius: 50%; 
+    }
+
+}
+
+
+/*======================================================================*/
+
+
+#btn_adc_carrinho {
+    background-color: #cd4349; 
+    color: white;  
+    width: 65%;
+    border-radius: 7px;
+    cursor: pointer;
+    padding: 13px 0;
+    position: relative;
+    transition: 0.3s;
+}
+
+#btn_adc_carrinho:hover {
+    background-color: #af2626;      
+}
+
+#btn_adc_carrinho .texto_btn_adc_vlr{
+    right:20px;
+    position: absolute;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+#btn_adc_carrinho .texto_btn_adc{
+    left:20px;
+    position: absolute;
+    color: white;  
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+
+}

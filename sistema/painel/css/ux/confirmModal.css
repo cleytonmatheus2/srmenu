@@ -1,0 +1,133 @@
+
+
+    /*---------- CONFIRMATION ----------*/
+
+    .confirmationBody{
+        display: none;
+         width: 100%;
+         height: 100%;
+        /* background-color: #282E38;
+         position: absolute;*/
+ 
+     }
+ 
+ 
+ 
+     .confirmationModal{
+         width: 400px;
+         height: 235px;
+         position: absolute;
+         margin: auto;
+         top: 0;
+         bottom: 0;
+         left: 0;
+         right: 0; 
+         text-align: center;
+         background-color: white;
+         border-top: 7px solid #F53649;
+         border-radius: 7px;
+         box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+         animation: showModal 0.30s ease-out;
+     }
+ 
+     @keyframes showModal {
+ 
+         from{
+             bottom: 8%;
+             opacity: 0;
+             transform-style: preserve-3d;
+             transform: rotateX(25deg);
+             transform: scaleX(500px);
+         }
+         to {    
+             bottom: 0;
+         }
+         
+     }
+ 
+     .supdiv{
+         position: relative;
+         width: 100%;
+         height: 165px;
+ 
+     }
+ 
+ 
+     .divModal1{
+         width: 35%;
+         height: 100%;
+         position: relative;
+     }
+ 
+     .divModal2{
+         width: 80%;
+     }
+ 
+   
+     .confimationTrash{
+         width: 80px;
+         height: 80px;
+         background-color: #F53649;
+         display: inline-block;
+         border-radius: 50%;
+         position: absolute;
+         margin: auto;
+         top: 0;
+         bottom: 0;
+         left: 20%;
+     }
+ 
+     .trashConfirmation{
+         fill: #ffffff;
+         width: 50px;
+         position: absolute;
+         margin: auto;
+         top: 0;
+         bottom: 0;
+         left: 0;
+         right: 0;
+      
+     }
+     
+     
+     .infDivBtns {
+ 
+         width: 400px;
+         height: 50px;
+ 
+     }
+ 
+ 
+     .btn-cancel{
+         background-color: whitesmoke;
+         color: rgb(83, 82, 82);
+         border: 1px solid rgb(161, 167, 171);
+         font-size: 18px;
+         font-family: 'Roboto', sans-serif;
+         width: 47%;
+         border-radius: 7px;
+         padding: 15px 15px 15px 15px;
+        
+     }
+     .btn-cancel:active{
+         background-color: rgb(236, 227, 227);
+     }
+ 
+     .btn-deletar{
+         background-color: #F53649;
+         color: whitesmoke;
+         border: none;
+         font-size: 18px;
+         font-family: 'Roboto', sans-serif;
+         width: 47%;
+         border-radius: 7px;
+         padding: 15px 15px 15px 15px;
+    
+     }
+     .btn-deletar:active{
+         background-color: #c12b3a;
+ 
+     }
+ 
+ 
+ 
