@@ -29,10 +29,20 @@ Com o Zievo Table você poderá consultar seus livros preferidos, e encontrar re
 - **Bootstrap**: Para estilização e responsividade da interface.
 
 
-![Image](https://github.com/user-attachments/assets/98b1b448-2ac5-444f-9cc3-23f3bc995c73)
+![Image](https://github.com/user-attachments/assets/499749ac-e131-4154-b8d8-12abfe3fd3ab)
 
-![Image](https://github.com/user-attachments/assets/48677de8-4fb9-4663-8dfa-b8e6bc5efa89)
+![Image](https://github.com/user-attachments/assets/e2d2b594-b11a-4263-a7d9-605029a15eff)
 
-![Image](https://github.com/user-attachments/assets/6230eae5-3833-48fc-8f24-4b178aa6d918)
+![Image](https://github.com/user-attachments/assets/f9c3032c-c7ef-4844-8aba-d345eb04efa2)
 
-![Image](https://github.com/user-attachments/assets/6f1970ae-7f75-4c95-9474-455b74dadb17)
+![Image](https://github.com/user-attachments/assets/c1e4aeb1-ce4c-472e-842d-34168fe1f5b5)
+
+![Image](https://github.com/user-attachments/assets/0f7963d3-57db-4c15-884c-43e9b6597611)
+
+![Image](https://github.com/user-attachments/assets/b620144c-a3c9-4cf4-9907-f066af424b41)
+
+![Image](https://github.com/user-attachments/assets/47c78910-4728-4560-baf5-164b4195a103)
+
+![Image](https://github.com/user-attachments/assets/8f83abdb-0540-4e37-bbd8-d0b0c7b359f0)
+
+![Image](https://github.com/user-attachments/assets/e81ad2c0-7b53-42bd-8394-f8a1ecf7c00b)
