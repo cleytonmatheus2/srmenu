@@ -11,22 +11,23 @@
 
 ## SrMenu
 
-Sistema de gestão para deliverys.
+Sistema de gestão para delivery.
 
 ## Funcionalidades
 
-- **CRUD Completo**: Crie, leia, atualize e delete registros de livros.
-- **Sistema de Pesquisa**: Busque qualquer livro pelo título.
-- **Listagem de Livros**: Exibe os livros cadastrados em uma tabela com detalhes relevantes.
-- **Interface Amigável**: Interface responsiva e intuitiva, desenvolvida com HTML/CSS e Bootstrap.
+- **PDV**: .
+- **Gestão de Pedidos**: .
+- **Controle de Estoque**: .
+- **Cardápio Digital**: .
 
 
 ## Tecnologias Utilizadas
 
-- **Laravel**: Framework PHP para desenvolvimento backend.
-- **PostgreSQL**: Banco de dados relacional para armazenar os dados dos livros.
-- **Blade Templates**: Para renderização de views e criação de uma interface dinâmica.
+- **PHP**: Framework PHP para desenvolvimento backend.
 - **Bootstrap**: Para estilização e responsividade da interface.
+- **MySQL**: Banco de dados relacional para armazenar os dados dos livros.
+- **CSS**: Para renderização de views e criação de uma interface dinâmica.
+- **JavaScript**: 
 
 
 ![Image](https://github.com/user-attachments/assets/499749ac-e131-4154-b8d8-12abfe3fd3ab)
