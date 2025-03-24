@@ -38,12 +38,13 @@ Com o Zievo Table você poderá consultar seus livros preferidos, e encontrar re
 ![Image](https://github.com/user-attachments/assets/c1e4aeb1-ce4c-472e-842d-34168fe1f5b5)
 
 
+
 <img src="https://github.com/user-attachments/assets/0f7963d3-57db-4c15-884c-43e9b6597611" width="500px" >
 
-![Image](https://github.com/user-attachments/assets/b620144c-a3c9-4cf4-9907-f066af424b41)
+<img src="https://github.com/user-attachments/assets/b620144c-a3c9-4cf4-9907-f066af424b41" width="500px" >
 
-![Image](https://github.com/user-attachments/assets/47c78910-4728-4560-baf5-164b4195a103)
+<img src="https://github.com/user-attachments/assets/47c78910-4728-4560-baf5-164b4195a103" width="500px" >
 
-![Image](https://github.com/user-attachments/assets/8f83abdb-0540-4e37-bbd8-d0b0c7b359f0)
+<img src="https://github.com/user-attachments/assets/8f83abdb-0540-4e37-bbd8-d0b0c7b359f0" width="500px" >
 
-![Image](https://github.com/user-attachments/assets/e81ad2c0-7b53-42bd-8394-f8a1ecf7c00b)
+<img src="https://github.com/user-attachments/assets/e81ad2c0-7b53-42bd-8394-f8a1ecf7c00b" width="500px" >
