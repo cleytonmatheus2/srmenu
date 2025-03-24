@@ -9,9 +9,9 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Zievo Project
+## SrMenu
 
-Com o Zievo Table você poderá consultar seus livros preferidos, e encontrar referências importantes nausa pesquisa.
+Sistema de gestão para deliverys.
 
 ## Funcionalidades
 
