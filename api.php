@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     
  
-    <script defer src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyBM-5-BiElxw4iKwAfAAZaX4c4gqCmubO4" type="text/javascript"></script>
+    <script defer src="https://maps.googleapis.com/maps/api/js?libraries=places&key=API_KEY_HERE" type="text/javascript"></script>
 
 <button id="resultados">RESULTADO</button>
 <span id="response"></span>
